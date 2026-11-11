@@ -199,17 +199,11 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         const nameElement = document.getElementById('hero-name');
         if (nameElement) {
-            typeWriter(nameElement, 'Anjali Desai', 120);
+            typeWriter(nameElement, 'Meghna Mullangi', 120);
         }
     }, 1000);
 
 // Start rolling counter animations
-setTimeout(() => {
-    animateRollingCounter('grade-tens-roll', 1, 1500); // Show "1" for grade 12
-    animateRollingCounter('grade-ones-roll', 2, 1700); // Show "2" for grade 12
-    animateRollingCounter('age-tens-roll', 1, 1800);   // Show "1" for age 17
-    animateRollingCounter('age-ones-roll', 7, 2000);   // Show "7" for age 17
-}, 0);
 
     // Start particle generation
   //  createRandomParticles();
@@ -266,7 +260,7 @@ if (contactForm) {
         const message = document.getElementById('message').value;
         
         // Simple mailto fallback
-        window.location.href = `mailto:anjalidesai0111@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;                
+        window.location.href = `mailto:mmullangi3@gatech.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;                
         // Clear form
         contactForm.reset();
     });
